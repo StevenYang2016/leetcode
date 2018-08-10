@@ -13,6 +13,8 @@ public:
 	~addTwoNumbers();
 	
 	ListNode* addTwoNumbers_f(ListNode* l1, ListNode* l2);
+	ListNode* addRecursion(ListNode* l1, ListNode* l2,int carry);
+	ListNode* add(ListNode* l1, ListNode* l2);
 	ListNode* creatListNotes(int n);
 	void printListNotes(ListNode* l);
 };
