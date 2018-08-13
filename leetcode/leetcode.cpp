@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "twoSum.h"
 #include "addTwoNumbers.h"
+#include "lengthOfLongestSubstring.h"
 
 void test() {
 	string str = "my string";
@@ -18,7 +19,8 @@ int main()
 {
 	//twoSum test;
 	//addTwoNumbers test;
-	test();
+	lengthOfLongestSubstring test;
+	//test();
 	getchar();
     return 0;
 }
